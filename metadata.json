@@ -1,0 +1,5 @@
+{
+  "name": "NeuroQuant",
+  "description": "A privacy-first, local quantitative trading strategy simulator and backtester powered by AI.",
+  "requestFramePermissions": []
+}
