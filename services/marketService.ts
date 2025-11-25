@@ -1,4 +1,3 @@
-
 import { MarketData, StrategyConfig, BacktestResult, Trade, SignalType, AiSignal, Exchange } from '../types';
 
 // --- Helper: Symbol Mapping ---

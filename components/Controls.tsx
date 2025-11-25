@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { StrategyConfig, SupportedAssets, Exchange } from '../types';
 

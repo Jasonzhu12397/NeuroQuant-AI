@@ -1,4 +1,3 @@
-
 import { GoogleGenAI, Type } from "@google/genai";
 import { AiSettings, MarketData, AiSignal, SignalType, StrategyConfig, BacktestResult } from "../types";
 
