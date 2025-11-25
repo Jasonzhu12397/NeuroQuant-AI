@@ -1,0 +1,16 @@
+{
+  "short_name": "NeuroQuant",
+  "name": "NeuroQuant AI Trading",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10473/10473611.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "portrait"
+}
