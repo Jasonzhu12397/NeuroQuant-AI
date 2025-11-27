@@ -270,12 +270,14 @@ const App: React.FC = () => {
                 isAnalyzing={isAnalyzing}
                 isAiTrading={isAiTrading}
              />
-             <Visualizer 
-                data={marketData} 
-                shortMA={shortMA} 
-                longMA={longMA} 
-                results={results}
-             />
+             {!isLoadingData && marketData.length > 0 && (
+                <Visualizer 
+                    data={marketData} 
+                    shortMA={shortMA} 
+                    longMA={longMA} 
+                    results={results}
+                />
+             )}
           </div>
 
           {/* Sidebar */}

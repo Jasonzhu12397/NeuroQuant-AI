@@ -23,7 +23,10 @@ interface VisualizerProps {
 // Custom Candle Shape Component
 const Candle = (props: any) => {
   const { x, y, width, height, payload, yAxis } = props;
+  if (!payload || !yAxis || !yAxis.scale) return null;
   const { open, high, low, close } = payload;
+  
+  if (open === undefined || close === undefined) return null;
 
   // Calculate coordinates using the chart's Y-axis scale
   // Note: Recharts yAxis.scale(value) converts a data value to a pixel coordinate
